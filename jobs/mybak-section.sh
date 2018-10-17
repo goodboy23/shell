@@ -11,7 +11,7 @@
 # 适用：centos6+
 # 语言：中文
 #
-#使用：./xx.sh -uroot -p'123456'，将第一次增量备份后的binlog文件名写到/tmp/binlog-section中，若都没有，填写mysql-bin.000001
+#使用：./xx.sh -uroot -p'123456'，将第一次增量备份后的binlog文件名写到/tmp/binlog-section中，若都没有，自动填写mysql-bin.000001
 #过程：增量先刷新binlog日志，再查询/tmp/binlog-section中记录的上一次备份中最新的binlog日志的值
 #      cp中间的binlog日志，并进行压缩。再将备份中最新的binlog日志写入。
 #恢复：先进行全量恢复，再根据全量备份附带的time-binlog.txt中的记录逐个恢复。当前最新的Binlog日志要去掉有问题的语句，例如drop等。
