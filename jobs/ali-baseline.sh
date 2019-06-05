@@ -129,7 +129,7 @@ sx() {
     else
         sed -i "/^PASS_MAX_DAYS/ d" $1
         echo 'PASS_MAX_DAYS   90' >> $1
-        #chage --maxdays 90 root，开启后会让改密码
+        chage --maxdays 90 root
     fi
 }
 
