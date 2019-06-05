@@ -200,7 +200,7 @@ if [[ $? -eq 0 ]];then
     jg /etc/login.defs
 
     #设置密码失效时间
-    sx /etc/login.defs
+    #sx /etc/login.defs
 
     #密码复杂度检查
     fz /etc/security/pwquality.conf
@@ -224,7 +224,7 @@ if [[ $? -eq 0 ]];then
     jg /etc/login.defs
 
     #设置密码失效时间
-    sx /etc/login.defs
+    #sx /etc/login.defs
 
     #密码复杂度-六
     fz_liu /etc/pam.d/password-auth
