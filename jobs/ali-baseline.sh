@@ -178,7 +178,7 @@ fz_liu() {
     fi
 }
 
-grep ' 6.' /etc/redhat-release &>/dev/null
+grep ' 7.' /etc/redhat-release &>/dev/null
 if [[ $? -eq 0 ]];then
     #检查密码重用是否受限制
     cy /etc/pam.d/password-auth
@@ -208,7 +208,7 @@ if [[ $? -eq 0 ]];then
     exit
 fi
 
-grep ' 7.' /etc/redhat-release &>/dev/null
+grep ' 6.' /etc/redhat-release &>/dev/null
 if [[ $? -eq 0 ]];then
     #检查密码重用是否受限制
     cy /etc/pam.d/password-auth
