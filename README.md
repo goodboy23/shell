@@ -1,2 +1,2 @@
 # shell
-一些脚本小例子：http://www.52wiki.cn/docs/shell/shell-1alao7rj8mqol
+一些脚本小例子：https://www.52wiki.cn/Doc/Read/id/1584.html
