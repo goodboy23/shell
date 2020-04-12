@@ -1,14 +1,14 @@
+#!/bin/bash
 # 作者：日行一善 <qq：1969679546> <email：1969679546@qq.com>
-# 官网：www.52wiki.cn
+# 官网：www.linkops.cn
 #
 # 日期：2018/6/23
-# 介绍：moni-tty.sh 模拟shell界面
-#
-# 注意：无
-# 作用：模拟shell界面，可以加入到/etc/profile中，其他人登陆后，看到的都是经过处理的
+# 介绍：加一层shell终端
 #
 # 适用：centos6+
-# 语言：英文
+# 语言：中文
+#
+# 注意：无
 
 
 

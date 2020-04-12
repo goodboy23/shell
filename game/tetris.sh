@@ -1,7 +1,16 @@
-#!/usr/bin/env bash
- 
-# Tetris Game
-# 10.21.2003 xhchen<[email]xhchen@winbond.com.tw[/email]>
+#!/bin/bash
+# 作者：xhchen <email：xhchen@winbond.com.tw>
+# 官网：www.linkops.cn
+#
+# 日期：2003/10/21
+# 介绍：俄罗斯方块小游戏
+#
+# 适用：centos6+
+# 语言：中文
+#
+# 注意：无
+
+
  
 #APP declaration
 APP_NAME="${0##*[\\/]}"

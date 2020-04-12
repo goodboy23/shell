@@ -1,16 +1,17 @@
 #!/bin/bash
 # 作者：日行一善 <qq：1969679546> <email：1969679546@qq.com>
-# 官网：www.52wiki.cn
+# 官网：www.linkops.cn
 #
 # 日期：2018/4/12
-# 介绍：mybak-section.sh 复制Binlog日志方式的增量备份脚本
-#
-# 注意：执行脚本前修改脚本中的变量
-# 功能：cp方式增量备份
+# 介绍：复制Binlog日志方式的增量备份脚本
 #
 # 适用：centos6+
 # 语言：中文
 #
+# 注意：执行脚本前修改脚本中的变量
+
+
+
 #使用：./xx.sh -uroot -p'123456'，将第一次增量备份后的binlog文件名写到/tmp/binlog-section中，若都没有，自动填写mysql-bin.000001
 #过程：增量先刷新binlog日志，再查询/tmp/binlog-section中记录的上一次备份中最新的binlog日志的值
 #      cp中间的binlog日志，并进行压缩。再将备份中最新的binlog日志写入。

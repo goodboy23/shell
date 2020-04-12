@@ -1,9 +1,16 @@
 #!/bin/bash
+# 作者：LKJ <email：liungkejin@gmail.com>
+# 官网：www.linkops.cn
 #
-# Author: LKJ
-# Date: 2013/5/14
-# Email: liungkejin@gmail.com
+# 日期：2013/5/14
+# 介绍：显示字符时间
 #
+# 适用：centos6+
+# 语言：英文
+#
+# 注意：无
+
+
 
 asciinumber=(
     '    .XEEEEb           ,:LHL          :LEEEEEG        .CNEEEEE8                bMNj       NHKKEEEEEX           1LEEE1    KEEEEEEEKNMHH       8EEEEEL.         cEEEEEO    '

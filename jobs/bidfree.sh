@@ -1,15 +1,14 @@
 #!/bin/bash
 # 作者：日行一善 <qq：1969679546> <email：1969679546@qq.com>
-# 官网：www.52wiki.cn
+# 官网：www.linkops.cn
 #
 # 日期：2018/4/23
-# 介绍：bid-free.sh 用于hadoop的双向免密脚本，让填写机器互相之间免密登陆
-#
-# 注意：请勿修改脚本名,需要安装sshpass，也就是需要yum可用
-# 功能：让填写机器互相之间免密登陆
+# 介绍：用于hadoop的双向免密脚本，让填写机器互相之间免密登陆
 #
 # 适用：centos6+
 # 语言：中文
+#
+# 注意：请勿修改脚本名,需要安装sshpass，也就是需要yum可用
 
 
 #[使用设置]
@@ -68,8 +67,8 @@ do
     if [ $b -eq 1 ];then
         echo " $ip ok"
     else
-        sshpass -p "$passwd" scp bid-free.sh root@${ip}:/root/
-        $a chmod +x bid-free.sh
-        $a bash bid-free.sh
+        sshpass -p "$passwd" scp bidfree.sh root@${ip}:/root/
+        $a chmod +x bidfree.sh
+        $a bash bidfree.sh
     fi
 done

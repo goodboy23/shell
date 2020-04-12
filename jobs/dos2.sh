@@ -1,15 +1,14 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # 作者：日行一善 <qq：1969679546> <email：1969679546@qq.com>
-# 官网：www.52wiki.cn
+# 官网：www.linkops.cn
 #
 # 日期：2018/6/15
-# 介绍：dos2.sh 将windows写的文件转换为linux格式
-#
-# 注意：无
-# 功能：将单个或者整个文件夹中的文件转换
+# 介绍：将windows写的文件转换为linux格式，可整个文件夹转换
 #
 # 适用：centos6+
 # 语言：中文
+#
+# 注意：无
 
 
 

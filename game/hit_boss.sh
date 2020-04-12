@@ -1,15 +1,14 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # 作者：日行一善 <qq：1969679546> <email：1969679546@qq.com>
-# 官网：www.52wiki.cn
+# 官网：www.linkops.cn
 #
 # 日期：2017/9/13
-# 介绍：hit-boss.sh 打boss小游戏
-#
-# 注意：无
-# 功能：打boss小游戏
+# 介绍：打boos小游戏
 #
 # 适用：centos6+
 # 语言：中文
+#
+# 注意：无
 
 
 
