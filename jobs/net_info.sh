@@ -50,7 +50,6 @@ function traffic_monitor {
     echo -e "version 1.0"
     echo -e "Since 2014.2.26"
     echo -e "Created by showerlee"
-    echo -e "BLOG: http://www.showerlee.com"
     echo -e "==================================="
     echo -e "System: $OS_NAME"
     echo -e "Date:   `date +%F`"
